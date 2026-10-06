@@ -4,7 +4,7 @@ Community presets collection for [Illogical Impulse](https://github.com/vaxerski
 
 ## Available Presets
 
-- **Sunflower** (`sunflower`, v1.0.0) — A yellow and blue theme
+- **Sunflower** (`sunflower`, v1.0.1) — A yellow and blue theme
 
 ## How to Install
 
