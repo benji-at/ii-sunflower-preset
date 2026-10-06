@@ -1,0 +1,18 @@
+{
+    "schema": 1,
+    "author": "benji-at",
+    "presets": [
+        {
+            "id": "sunflower",
+            "name": "Sunflower",
+            "description": "A yellow and blue theme",
+            "version": "1.0.0",
+            "configVersion": 29,
+            "path": "presets/sunflower",
+            "wallpaper": "presets/sunflower/wallpaper.png",
+            "screenshots": [
+                "presets/sunflower/screenshots/1-ecf4d5d3.png"
+            ]
+        }
+    ]
+}
