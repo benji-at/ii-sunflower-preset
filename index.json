@@ -6,7 +6,7 @@
             "id": "sunflower",
             "name": "Sunflower",
             "description": "A yellow and blue theme",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "configVersion": 31,
             "path": "presets/sunflower",
             "wallpaper": "presets/sunflower/wallpaper.png",
