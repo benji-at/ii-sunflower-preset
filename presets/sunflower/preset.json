@@ -3,13 +3,18 @@
     "name": "Sunflower",
     "author": "benji-at",
     "description": "A yellow and blue theme",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "configVersion": 31,
     "config": "config.json",
     "screenshots": [
         "screenshots/1-ecf4d5d3.png"
     ],
     "changelog": [
+        {
+            "version": "1.0.4",
+            "date": "2026-11-03",
+            "notes": "major"
+        },
         {
             "version": "1.0.3",
             "date": "2026-11-03",

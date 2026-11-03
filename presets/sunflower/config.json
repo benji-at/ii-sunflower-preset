@@ -51,18 +51,17 @@
         "gapsIn": 10,
         "gapsOut": 28,
         "globalRounding": "large",
-        "iconTheme": "",
         "iconTintPercentage": 0.6,
         "icons": {
             "enableShapeMask": false,
-            "enableThemed": false,
             "iiPack": {
                 "glyphScale": 1,
                 "plateScale": 1,
                 "shape": "circle",
                 "source": ""
             },
-            "shapeMask": "Circle"
+            "shapeMask": "Circle",
+            "enableThemed": false
         },
         "ignoreAlpha": 0.35000000000000003,
         "openrgb": {
@@ -116,7 +115,8 @@
                 "termFgBoost": 0.35
             }
         },
-        "wrappedFrameThickness": 6
+        "wrappedFrameThickness": 6,
+        "iconTheme": ""
     },
     "apps": {
         "bluetooth": "kcmshell6 kcm_bluetooth",
@@ -287,7 +287,7 @@
         "wallpaperAnimation": "magic",
         "wallpaperEngineAssetsPath": "",
         "wallpaperEngineId": "",
-        "wallpaperPath": "$HOME/Pictures/Wallpapers/my-neighbor-totoro-sunflowers.png",
+        "wallpaperPath": "$HOME/.config/illogical-impulse/presets/Sunflower.png",
         "widgets": {
             "ai_chat": {
                 "enable": false,
@@ -1356,8 +1356,6 @@
                 "x": 400,
                 "y": 120
             },
-            "showOnlyOnSingleMonitor": false,
-            "targetMonitor": "",
             "timer_countdown": {
                 "enable": false,
                 "placementStrategy": "free",
@@ -1655,7 +1653,9 @@
                 "placementStrategy": "free",
                 "x": 200,
                 "y": 200
-            }
+            },
+            "showOnlyOnSingleMonitor": false,
+            "targetMonitor": ""
         },
         "windowZoomLiveCapture": false,
         "windowZoomOnOverview": false,
@@ -1850,11 +1850,11 @@
             "integratedPopups": true,
             "integratedSessionMenu": true,
             "integratedWallpaperBrowser": true,
-            "onlyShowOnSingleMonitor": false,
             "pinMediaBubble": false,
             "shape": "sculpted",
-            "singleMonitorName": "",
-            "wallpaperBrowserStyle": "carousel"
+            "wallpaperBrowserStyle": "carousel",
+            "onlyShowOnSingleMonitor": false,
+            "singleMonitorName": ""
         },
         "indicators": {
             "notifications": {
@@ -1969,7 +1969,6 @@
             "showUnit": true,
             "unit": "bytes"
         },
-        "onlyShowOnSingleMonitor": false,
         "policies": {
             "colorMode": "primary"
         },
@@ -2022,7 +2021,6 @@
             "showPercentageText": true,
             "swapWarningThreshold": 85
         },
-        "screenList": [],
         "searchWidget": {
             "colorMode": "tonal",
             "sculptVariant": "field",
@@ -2030,7 +2028,6 @@
             "sizeMode": "compact"
         },
         "sidebarClickOpen": true,
-        "singleMonitorName": "",
         "sizes": {
             "height": 40,
             "width": 44
@@ -2096,15 +2093,15 @@
             "battery": "default",
             "bluetooth": "expressive",
             "clock": "neural",
-            "dashboard": "sculpt",
+            "dashboard": "expressive",
             "date": "default",
-            "keyboard": "material",
+            "keyboard": "expressive",
             "media": "default",
             "networkSpeed": "default",
             "notification": "default",
             "policies": "expressive",
             "portWatcher": "expressive",
-            "power": "solid",
+            "power": "expressive",
             "recordIndicator": "neural",
             "resources": "sculpt",
             "search": "default",
@@ -2221,7 +2218,10 @@
                 0,
                 10
             ]
-        }
+        },
+        "onlyShowOnSingleMonitor": false,
+        "singleMonitorName": "",
+        "screenList": []
     },
     "battery": {
         "automaticSuspend": false,
@@ -2872,10 +2872,10 @@
                 "swipeRight": "workspacePrev",
                 "swipeUp": "appDrawer"
             },
-            "targetMonitor": "auto",
             "transform": "auto",
             "velocityThreshold": 650,
-            "visualFeedback": true
+            "visualFeedback": true,
+            "targetMonitor": "auto"
         },
         "touchpadGestures": {
             "bindings": [
@@ -2913,16 +2913,6 @@
             "enable": true,
             "trackedDistance": 280
         }
-    },
-    "language": {
-        "translator": {
-            "defaultSourceLanguage": "auto",
-            "defaultTargetLanguage": "auto",
-            "engine": "auto",
-            "sourceLanguage": "auto",
-            "targetLanguage": "English"
-        },
-        "ui": "auto"
     },
     "launcher": {
         "pinnedApps": [
@@ -3079,7 +3069,6 @@
         "audioBitrate": 0,
         "audioCodec": "any",
         "defaultFormat": "best",
-        "downloadPath": "$HOME/Downloads",
         "embedMetadata": true,
         "enabled": true,
         "extraArgs": "",
@@ -3094,7 +3083,8 @@
         "useAria2c": false,
         "videoCodec": "any",
         "videoResolution": "best",
-        "writeThumbnail": false
+        "writeThumbnail": false,
+        "downloadPath": "$HOME/Downloads"
     },
     "musicRecognition": {
         "interval": 4,
@@ -3366,15 +3356,6 @@
             "rotateDegrees": 0
         }
     },
-    "policies": {
-        "ai": 2,
-        "anki": 0,
-        "phone": 0,
-        "player": 1,
-        "translator": 0,
-        "wallpapers": 1,
-        "weeb": 0
-    },
     "regionSelector": {
         "annotation": {
             "badgeStartNumber": 1,
@@ -3454,12 +3435,12 @@
         "recordAudio": false,
         "recordMic": false,
         "resolution": "native",
-        "savePath": "$HOME/Videos",
         "service": "obs",
         "showEditPrompt": true,
         "showNotifications": true,
         "useGpu": true,
-        "useToolbar": false
+        "useToolbar": false,
+        "savePath": "$HOME/Videos"
     },
     "screenShader": {
         "extraShaderDirs": [],
@@ -3519,7 +3500,7 @@
             "textFadeIn": true,
             "thinkingDefault": ""
         },
-        "bannerImage": "$HOME/.config/illogical-impulse/presets/Forest_banner.jpg",
+        "bannerImage": "$HOME/.config/illogical-impulse/presets/Sunflower_banner.jpg",
         "booru": {
             "allowNsfw": false,
             "defaultProvider": "yandere",
@@ -3701,7 +3682,7 @@
             "style": "android",
             "useThreeWaySliders": true
         },
-        "sidebarStyle": "default",
+        "sidebarStyle": "connect",
         "tabletShade": {
             "edgeDragHeight": 8,
             "liveBackdrop": false
@@ -4007,21 +3988,21 @@
         }
     },
     "wallpaperSelector": {
-        "customDefaultPath": "$HOME/Pictures/Wallpapers",
-        "directories": [],
         "sortField": "modified",
         "sortReversed": false,
         "useCustomDefaultPath": false,
-        "useSystemFileDialog": false
+        "useSystemFileDialog": false,
+        "customDefaultPath": "$HOME/Pictures/Wallpapers",
+        "directories": []
     },
     "wallpapers": {
+        "service": "wallhaven",
+        "showAnimeResults": false,
+        "sort": "favourites",
         "paths": {
             "download": "$HOME/Pictures/Wallpapers",
             "nsfw": "$HOME/Pictures/Wallpapers/NSFW"
-        },
-        "service": "wallhaven",
-        "showAnimeResults": false,
-        "sort": "favourites"
+        }
     },
     "windowSwitcher": {
         "currentMonitorOnly": false,
@@ -4036,6 +4017,25 @@
     "windows": {
         "centerTitle": true,
         "showTitlebar": true
+    },
+    "language": {
+        "translator": {
+            "defaultSourceLanguage": "auto",
+            "defaultTargetLanguage": "auto",
+            "engine": "auto",
+            "sourceLanguage": "auto",
+            "targetLanguage": "English"
+        },
+        "ui": "auto"
+    },
+    "policies": {
+        "ai": 2,
+        "anki": 1,
+        "phone": 0,
+        "player": 1,
+        "translator": 0,
+        "wallpapers": 1,
+        "weeb": 0
     },
     "workSafety": {
         "enable": {
